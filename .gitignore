@@ -1,5 +1,5 @@
-/Local/*
-!/Local/PUT MIDDLE DATA HERE
+/Caches/*
+!/Caches/PUT MIDDLE DATA HERE
 
 /Settings/*
 !/Settings/FOLDER FOR SENSITIVE CONNECTION STR
