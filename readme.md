@@ -19,5 +19,5 @@ If `SQL Pro for SQLite` expired, just delete `/User/username/Library/Containers/
 
 There may be updates of `MOZE Output.sql` and they will not show above updately in this readme file.
 
-4. Export data into json file
+4. Export data as json file. Put it under `/Caches` and name it as `MOZE.js`. Open it and add `var moze = ` at the very beginning of the file and store it.
 
