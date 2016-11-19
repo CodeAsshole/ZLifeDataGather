@@ -1,7 +1,7 @@
 
 "use strict";
 function saveMoze(){
-	for(var i=0; i<20; i++){
+	for(var i=0; i<mozeData.length; i++){
 		ajax.get("https://api.leancloud.cn/1.1/classes/MozePayData?where="+encodeURIComponent('{"MozeId":"'+mozeData[i]+'"}'),null,function(responseText){
 			var results = JSON.parse(responseText);
 			if(results.results == null || results.results.length == 0)
